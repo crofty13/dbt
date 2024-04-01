@@ -39,7 +39,7 @@ final as (
 
     left join customer_orders using (customer_id)
     ORDER BY number_of_orders DESC
-    limit 10
+    limit 5
 )
 
 select * from final
